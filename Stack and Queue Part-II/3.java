@@ -1,5 +1,9 @@
 /* LFU Cache 
 
+So Approach is same like LRU cache but here we are also maintaing a freq. map
+freq. map will gonna store list of ele having same freq in the LRU form.
+We need to maintain a ptr of min.freq, so that we can remove the LFU item easily by getting its list
+from freq. map, then removing it directly as it is a DLL node
 */
 
 class Node {
