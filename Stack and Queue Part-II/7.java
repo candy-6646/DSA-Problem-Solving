@@ -8,6 +8,15 @@ Using BFS- Putting the current rotten oranges into Queue
         A single rotten orange can make it's neighbours also rotten in 1 unit of time(t->l->b->r)
         And the rotten oranges having same time, can make their neigh. also rotten in the t+1
 
+
+    Time Complexity: O ( n x n ) x 4    
+
+    Reason: Worst-case – We will be making each fresh orange rotten in the grid and for each rotten orange will check in 4 directions
+
+    Space Complexity: O ( n x n )
+
+    Reason: worst-case –  If all oranges are Rotten, we will end up pushing all rotten oranges into the Queue data structure
+
 */
 
 class Solution {
