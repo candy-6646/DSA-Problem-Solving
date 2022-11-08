@@ -1,4 +1,10 @@
-/*LeftView Of Binary Tree*/
+/*LeftView Of Binary Tree
+
+
+left/rigth view of BT-> recusive way, comparing dia with size of list of nodes
+*/
+
+
 
 class Tree
 {

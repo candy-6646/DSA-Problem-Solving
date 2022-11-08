@@ -1,4 +1,9 @@
-/* Postorder Traversal */
+/* Postorder Traversal 
+
+Iterative- We add node to st and go on left, once root == null, means not left node
+            Now we just need to go right once
+            Again when we encounter right == null, than we start to pop from st. and add to ans
+*/
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();

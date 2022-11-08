@@ -1,4 +1,8 @@
-/* Preorder Traversal */
+/* Preorder Traversal 
+
+Iterative- Add curr to ans and if curr.right != null add it to st and go on left
+once left == null, pick ele from top of st
+*/
 
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) { 

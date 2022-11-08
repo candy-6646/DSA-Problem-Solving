@@ -1,4 +1,9 @@
-/* Inorder Traversal */
+/* Inorder Traversal 
+
+Iterative way- Add curr to stack and go on left until root != null (means root.left != null)
+    once root.left == null, pick ele from top of st. and print it and go on right
+
+*/
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
